@@ -1,0 +1,273 @@
+body{
+    margin:0px;
+}
+.Menu{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+#left{
+    margin:10px;
+    font-size: 20px;
+    color:gray;
+    display: flex;
+    width:30%;
+    justify-content: center;
+    align-items: center;
+}
+#logo{
+    display: flex;
+    justify-content: center;
+}
+
+#right{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width:30%;
+}
+#Menu-item{
+    padding:10px;
+}
+#search{
+    background-image: url(icons8-search.svg);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position:10px;
+    border-radius: 05px;
+    width:165px;
+    height: 32px;
+    opacity: 50%;
+    padding-left: 30px;
+}
+.Header{
+    font-size:60px;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Content-container{
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgba(111, 111, 111, 0.3);
+    border-radius:10px;
+    width:1175px;
+    height: 300px;
+    margin: 25px;
+}
+#title{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(63, 63, 63);
+}
+#Noidung{
+    color:gray;
+}
+#italic{
+    font-style: italic;
+    opacity: 50%;
+}
+#Shopnow{
+    background-color:#459d7a;
+    border-radius:5px ;
+    width:200px;
+    height:50px;
+    border: none;
+    font-size: 20px;
+    color:white
+}
+#Shopnow:hover{
+    background-color:#063b26;
+    border-radius:5px ;
+    width:200px;
+    height:50px;
+    border: none;
+    font-size: 20px;
+    color:white;
+    transition:0.5s linear;
+}
+#content-item{
+    padding: 20px 70px 30px 70px;
+    font-size: 20px;
+}
+.content-container-3{
+    display: flex;
+    margin-left:140px;
+}
+#image-3{
+    background-image: url();
+}
+#Infomation{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    color:gray;
+}
+#Infor{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+#Content-Infomation{
+    padding-top: 10px;
+}
+.content-container-4{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-image: url(Image\ 1\ \(3\).png);
+    width: 1170px;
+    height: 370px;
+    margin-bottom: 65px;
+}
+
+#Gift{
+    font-size: 55px;
+    opacity: 70%;
+}
+#Gift-content{
+    color:gray;
+    font-size:20px;
+    width:450px;
+    margin-right: 100px;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    height: 430px;
+    background-color:#1d2128;
+    font-size: 30px;
+    color: #9fa2a8;
+}
+#footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    width: 100%;
+
+}
+#content-container{
+    display: flex;
+    flex-direction: column;
+    padding-right:50px;
+
+}
+#content-container-contract{
+    display: flex;
+    align-items: flex-start;
+
+}
+#content_contract{
+    display: flex;
+}
+#content_contract_1{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    justify-content: space-around;
+    padding: 0px 50px;
+}
+#About{
+    color: #dee1e6;
+    font-size: 30px;
+    font-weight: bold;
+}
+#Help{
+    color:#dee1e6;
+    font-size: 30px;
+    font-weight: bold;
+}
+#contract{
+    color:#dee1e6;
+    font-size: 30px;
+    font-weight: bold;
+}
+#contract-items{
+    padding: 10px 0px;
+}
+#Language{
+    width: 130px;
+    height: 40px;
+    border-radius:5px;
+    background-color: #1d2128;
+    font-size: 20px;
+    color: white;
+    margin-left: 40px;
+}
+#input{
+    display: flex;
+    justify-content:left;
+}
+#input-email{
+    background-image: url(icons8-envelope-24.png);
+    background-repeat: no-repeat;
+    background-size:30px;
+    background-position:26px;
+    width: 310px;
+    height: 51.5px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    background-color: #1d2128;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding-left: 65px;
+}
+#Subscribe{
+    background-color: #459d7a;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 130px;
+    height: 55px;
+    border: 1px solid #459d7a;
+    font-size: 18px;
+    margin-bottom:3px;    
+}
+#Subscribe:hover{
+    background-color: #42ebad;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 130px;
+    height: 55px;
+    border: 1px solid #459d7a;
+    font-size: 18px;
+    margin-bottom:3px;    
+}
+#copyright-1{
+    display: flex;
+    justify-content: left ;
+    font-size: 15px;
+}
+#copyright-2{
+   margin: 15px;
+}
+#receive-main{
+    color: #dee1e6;
+    margin: 18px 0px 18px 0px;
+    font-weight: bold;
+}
+#receive-content{
+    font-size: 20px;
+    margin: 10px 0px;
+}
+#phone-email{
+    color: #dee1e6;
+}
+#Social_contract{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    margin:15px 0px;
+}
+#Social_contract_logo{
+    width: 25px;
+    height: 25px;
+
+}
